@@ -42,7 +42,7 @@ const bmiCalculator = (height, weight) => {
 
 const calculateHealthRisk = (bmiNumber) => {
   // To check if bmiNumber is not a number
-  if (!+bmiString) throw new Error("Please enter a number");
+  if (!+bmiNumber) throw new Error("Please enter a number");
   return getBmiInfo(bmiNumber);
 };
 module.exports = {

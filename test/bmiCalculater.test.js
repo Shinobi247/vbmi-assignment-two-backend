@@ -21,6 +21,6 @@ describe("test BMi calculator", () => {
 
   it("test BMi calculator with invalid input a string", () => {
     let response = require("../index").handler("");
-    assert.equal(response.message, "Invalid Input");
+    assert.equal(response.message, "Please input an array of User Information");
   });
 });
